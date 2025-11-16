@@ -8,4 +8,4 @@ class ExcelExporter:
         rows = [p.to_dict() for p in products]
         df = pd.DataFrame(rows)
         df.to_excel(file_path, index=False)
-        print(f"✔ Đã xuất Excel: {file_path}")
+        print(f"Đã xuất Excel: {file_path}")

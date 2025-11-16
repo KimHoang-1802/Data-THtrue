@@ -149,5 +149,6 @@ class ParserService:
             if product.name:
                 products.append(product)
             
-        print(f"✓ Đã parse được {len(products)} sản phẩm")
+        print(f"Đã parse được {len(products)} sản phẩm")
         return products
+
