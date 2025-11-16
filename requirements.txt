@@ -1,0 +1,12 @@
+beautifulsoup4
+requests
+selenium
+webdriver-manager
+pandas
+openpyxl
+
+
+# Dùng để chứa tất cả thư viện cần thiết cho dự án.
+# chạy pip install -r requirements.txt để auto cài toàn bộ
+
+# phải chuyển về môi trường venv 
