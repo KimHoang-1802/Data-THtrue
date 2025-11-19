@@ -4,6 +4,7 @@ selenium
 webdriver-manager
 pandas
 openpyxl
+psycopg2-binary
 
 
 # Dùng để chứa tất cả thư viện cần thiết cho dự án.
