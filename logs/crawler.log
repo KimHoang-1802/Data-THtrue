@@ -528,3 +528,987 @@ LINE 2:                 CREATE TABLE IF NOT_EXISTS error_logs (
 2025-11-17 17:01:35,198 - INFO - database - Đã lưu sản phẩm: Bơ mặn AOP khối, 250g
 2025-11-17 17:01:35,199 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg 82% béo, 200g
 2025-11-17 17:01:35,199 - INFO - database - Đã đóng kết nối Database.
+2025-11-19 14:33:51,648 - INFO - main - Bắt đầu chương trình
+2025-11-19 14:33:59,240 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-19 14:33:59,283 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-19 14:33:59,291 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-19 14:33:59,291 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 14:33:59,291 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 14:34:04,073 - INFO - controller - Scroll trang 1...
+2025-11-19 14:34:04,073 - INFO - selenium - Bắt đầu scroll...
+2025-11-19 14:34:12,277 - INFO - parser - Bắt đầu parse HTML
+2025-11-19 14:34:12,310 - INFO - parser - Tìm thấy 24 product items
+2025-11-19 14:34:12,317 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-19 14:34:12,317 - INFO - controller - Tìm nút trang 2...
+2025-11-19 14:34:17,439 - INFO - selenium - Bắt đầu scroll...
+2025-11-19 14:34:23,565 - INFO - parser - Bắt đầu parse HTML
+2025-11-19 14:34:23,590 - INFO - parser - Tìm thấy 7 product items
+2025-11-19 14:34:23,592 - INFO - parser - Đã parse 7 sản phẩm
+2025-11-19 14:34:23,592 - INFO - selenium - Đóng Selenium driver
+2025-11-19 14:34:23,710 - INFO - controller - Tổng sản phẩm: 31
+2025-11-19 14:34:23,745 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, hộp 10 viên, 10g
+2025-11-19 14:34:23,747 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 10 viên, 7g
+2025-11-19 14:34:23,748 - INFO - database - Đã lưu sản phẩm: Bơ Imperial mặn, hộp 10 vỉ, 10g/8g
+2025-11-19 14:34:23,749 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor lạt, 200g
+2025-11-19 14:34:23,750 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 288 viên, 7g
+2025-11-19 14:34:23,751 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 5kg
+2025-11-19 14:34:23,752 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Baker Puff
+2025-11-19 14:34:23,753 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 200g
+2025-11-19 14:34:23,754 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 125g
+2025-11-19 14:34:23,755 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 5kg
+2025-11-19 14:34:23,757 - INFO - database - Đã lưu sản phẩm: Bơ mặn Westgold, 250g
+2025-11-19 14:34:23,757 - INFO - database - Đã lưu sản phẩm: Bơ lạt Anchor, 1kg
+2025-11-19 14:34:23,758 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 1kg
+2025-11-19 14:34:23,760 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 200g
+2025-11-19 14:34:23,761 - INFO - database - Đã lưu sản phẩm: Bơ cục President mặn, 125g
+2025-11-19 14:34:23,762 - INFO - database - Đã lưu sản phẩm: Bơ lạt Westgold, 250g
+2025-11-19 14:34:23,763 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Flora, 250g
+2025-11-19 14:34:23,764 - INFO - database - Đã lưu sản phẩm: Bơ lạt Bottega Zelachi, 250g
+2025-11-19 14:34:23,765 - INFO - database - Đã lưu sản phẩm: Bơ mặn Paysan Breton, 200g
+2025-11-19 14:34:23,766 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg cook & bake, 200g
+2025-11-19 14:34:23,767 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor mặn, 200g
+2025-11-19 14:34:23,768 - INFO - database - Đã lưu sản phẩm: Bơ mặn Imperial, 227g/200g
+2025-11-19 14:34:23,769 - INFO - database - Đã lưu sản phẩm: Bơ lạt AOP khối, 250g
+2025-11-19 14:34:23,770 - INFO - database - Đã lưu sản phẩm: Bơ lạt Paysan Breton, 200g
+2025-11-19 14:34:23,771 - INFO - database - Đã lưu sản phẩm: Bơ khối Anchor lạt, 5kg
+2025-11-19 14:34:23,772 - INFO - database - Đã lưu sản phẩm: Bơ lạt President, hộp 250g
+2025-11-19 14:34:23,773 - INFO - database - Đã lưu sản phẩm: Bơ lạt phết Anchor, 200g
+2025-11-19 14:34:23,774 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 1kg
+2025-11-19 14:34:23,775 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 5kg
+2025-11-19 14:34:23,776 - INFO - database - Đã lưu sản phẩm: Bơ mặn AOP khối, 250g
+2025-11-19 14:34:23,777 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg 82% béo, 200g
+2025-11-19 14:34:23,777 - INFO - database - Đã đóng kết nối Database.
+2025-11-19 15:22:43,992 - INFO - main - ====================================
+2025-11-19 15:22:43,993 - INFO - main - BẮT ĐẦU CRAWL & LƯU DATABASE
+2025-11-19 15:22:43,993 - INFO - main - ====================================
+2025-11-19 15:22:44,740 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-19 15:22:44,784 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-19 15:22:44,790 - INFO - controller - Bắt đầu crawl...
+2025-11-19 15:22:44,790 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 15:22:54,950 - INFO - parser - Bắt đầu parse HTML
+2025-11-19 15:22:54,984 - INFO - parser - Tìm thấy 24 products
+2025-11-19 15:22:54,987 - INFO - parser - Đã parse 0 sản phẩm
+2025-11-19 15:22:54,987 - INFO - controller - Tổng cộng: 0 products
+2025-11-19 15:22:54,987 - INFO - controller - ✓ Database: 0 inserted, 0 updated (tổng 0 items)
+2025-11-19 15:22:55,015 - INFO - controller - Database hiện có: 124 products
+2025-11-19 15:22:55,015 - INFO - selenium - Đóng Selenium driver
+2025-11-19 15:48:06,693 - INFO - main - ====================================
+2025-11-19 15:48:06,693 - INFO - main - BẮT ĐẦU CRAWL & LƯU DATABASE
+2025-11-19 15:48:06,693 - INFO - main - ====================================
+2025-11-19 15:48:14,318 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-19 15:48:14,362 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-19 15:48:14,367 - INFO - controller - Đang crawl trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=1
+2025-11-19 15:48:14,367 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=1
+2025-11-19 15:48:22,508 - INFO - parser - Bắt đầu parse HTML
+2025-11-19 15:48:22,536 - INFO - parser - Tìm thấy 24 products
+2025-11-19 15:48:22,541 - INFO - parser - Đã parse 0 sản phẩm
+2025-11-19 15:48:22,541 - INFO - controller - Không còn sản phẩm → dừng crawl
+2025-11-19 15:48:22,541 - INFO - controller - Tổng cộng crawl được 0 sản phẩm
+2025-11-19 15:48:22,541 - INFO - controller - ✓ Database: 0 inserted, 0 updated
+2025-11-19 15:48:22,541 - INFO - selenium - Đóng Selenium driver
+2025-11-19 16:04:18,883 - INFO - main - ====================================
+2025-11-19 16:04:18,883 - INFO - main - BẮT ĐẦU CRAWL
+2025-11-19 16:04:18,883 - INFO - main - ====================================
+2025-11-19 16:17:16,312 - INFO - main - ====================================
+2025-11-19 16:17:16,313 - INFO - main - BẮT ĐẦU CRAWL
+2025-11-19 16:17:16,313 - INFO - main - ====================================
+2025-11-19 16:51:39,812 | main | INFO | ============================================================
+2025-11-19 16:51:39,812 | main | INFO | BẮT ĐẦU CRAWL BƠ & BƠ THỰC VẬT - MM ONLINE (31 sản phẩm)
+2025-11-19 16:51:39,812 | main | INFO | ============================================================
+2025-11-19 16:51:39,812 | database | INFO | Đang kiểm tra và tạo bảng 'products' nếu chưa có...
+2025-11-19 16:51:39,920 | database | INFO | Bảng 'products' đã sẵn sàng
+2025-11-19 16:51:44,636 | selenium | INFO | Khởi tạo ChromeDriver thành công
+2025-11-19 16:51:44,637 | controller | INFO | → Bắt đầu crawl trang 1: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 16:51:58,603 | parser | INFO | Đang parse 46 sản phẩm từ HTML...
+2025-11-19 16:51:58,618 | parser | INFO | Parse thành công: 46 sản phẩm
+2025-11-19 16:51:58,618 | controller | INFO | Trang 1: +46 → Tổng: 46
+2025-11-19 16:51:58,618 | controller | INFO | → Bắt đầu crawl trang 2: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=2
+2025-11-19 16:52:05,382 | parser | INFO | Đang parse 7 sản phẩm từ HTML...
+2025-11-19 16:52:05,384 | parser | INFO | Parse thành công: 7 sản phẩm
+2025-11-19 16:52:05,384 | controller | INFO | Trang 2: +7 → Tổng: 53
+2025-11-19 16:52:05,384 | controller | INFO | → Bắt đầu crawl trang 3: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=3
+2025-11-19 16:52:12,477 | parser | INFO | Đang parse 0 sản phẩm từ HTML...
+2025-11-19 16:52:12,477 | parser | INFO | Parse thành công: 0 sản phẩm
+2025-11-19 16:52:12,477 | controller | INFO | Trang 3 không có sản phẩm → dừng crawl
+2025-11-19 16:52:12,477 | controller | INFO | CRAWL HOÀN TẤT: Tổng cộng 53 sản phẩm
+2025-11-19 16:52:12,492 | database | ERROR | Lỗi khi lưu vào database: (psycopg2.errors.UndefinedColumn) column products.unit does not exist
+LINE 1: ... products_name, products.price AS products_price, products.u...
+                                                             ^
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.price AS products_price, products.unit AS products_unit, products.image AS products_image, products.created_at AS products_created_at, products.updated_at AS products_updated_at 
+FROM products 
+WHERE products.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column products.unit does not exist
+LINE 1: ... products_name, products.price AS products_price, products.u...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/models/database.py", line 65, in save_products
+    existing = session.query(ProductDB).filter(ProductDB.name == prod.name).first()
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column products.unit does not exist
+LINE 1: ... products_name, products.price AS products_price, products.u...
+                                                             ^
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.price AS products_price, products.unit AS products_unit, products.image AS products_image, products.created_at AS products_created_at, products.updated_at AS products_updated_at 
+FROM products 
+WHERE products.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-19 16:52:12,500 | controller | ERROR | Lỗi nghiêm trọng: (psycopg2.errors.UndefinedColumn) column products.unit does not exist
+LINE 1: ... products_name, products.price AS products_price, products.u...
+                                                             ^
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.price AS products_price, products.unit AS products_unit, products.image AS products_image, products.created_at AS products_created_at, products.updated_at AS products_updated_at 
+FROM products 
+WHERE products.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column products.unit does not exist
+LINE 1: ... products_name, products.price AS products_price, products.u...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/controllers/product_controller.py", line 39, in crawl_category
+    save_products(all_products)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/models/database.py", line 65, in save_products
+    existing = session.query(ProductDB).filter(ProductDB.name == prod.name).first()
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column products.unit does not exist
+LINE 1: ... products_name, products.price AS products_price, products.u...
+                                                             ^
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.price AS products_price, products.unit AS products_unit, products.image AS products_image, products.created_at AS products_created_at, products.updated_at AS products_updated_at 
+FROM products 
+WHERE products.name = %(name_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'name_1': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-19 16:52:12,619 | selenium | INFO | Đã đóng ChromeDriver
+2025-11-19 16:52:12,716 | main | INFO | HOÀN THÀNH! Đã lưu 53 sản phẩm vào DB + Excel
+2025-11-19 16:52:12,716 | main | INFO | KẾT THÚC CHƯƠNG TRÌNH
+2025-11-19 16:54:19,344 | main | INFO | ============================================================
+2025-11-19 16:54:19,344 | main | INFO | BẮT ĐẦU CRAWL BƠ & BƠ THỰC VẬT - MM ONLINE (31 sản phẩm)
+2025-11-19 16:54:19,344 | main | INFO | ============================================================
+2025-11-19 16:54:19,344 | database | INFO | Đang kiểm tra và tạo bảng 'products' nếu chưa có...
+2025-11-19 16:54:19,478 | database | INFO | Bảng 'products' đã sẵn sàng
+2025-11-19 16:54:20,243 | selenium | INFO | Khởi tạo ChromeDriver thành công
+2025-11-19 16:54:20,243 | controller | INFO | → Bắt đầu crawl trang 1: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 16:54:34,710 | parser | INFO | Đang parse 46 sản phẩm từ HTML...
+2025-11-19 16:54:34,724 | parser | INFO | Parse thành công: 46 sản phẩm
+2025-11-19 16:54:34,724 | controller | INFO | Trang 1: +46 → Tổng: 46
+2025-11-19 16:54:34,724 | controller | INFO | → Bắt đầu crawl trang 2: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=2
+2025-11-19 16:54:41,507 | parser | INFO | Đang parse 7 sản phẩm từ HTML...
+2025-11-19 16:54:41,509 | parser | INFO | Parse thành công: 7 sản phẩm
+2025-11-19 16:54:41,509 | controller | INFO | Trang 2: +7 → Tổng: 53
+2025-11-19 16:54:41,509 | controller | INFO | → Bắt đầu crawl trang 3: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=3
+2025-11-19 16:54:48,382 | parser | INFO | Đang parse 0 sản phẩm từ HTML...
+2025-11-19 16:54:48,383 | parser | INFO | Parse thành công: 0 sản phẩm
+2025-11-19 16:54:48,383 | controller | INFO | Trang 3 không có sản phẩm → dừng crawl
+2025-11-19 16:54:48,383 | controller | INFO | CRAWL HOÀN TẤT: Tổng cộng 53 sản phẩm
+2025-11-19 16:54:48,456 | database | ERROR | Lỗi khi lưu vào database: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_products_name"
+DETAIL:  Key (name)=(Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]) already exists.
+
+[SQL: INSERT INTO products (name, price, unit, image, created_at, updated_at) SELECT p0::VARCHAR, p1::INTEGER, p2::VARCHAR, p3::TEXT, p4::TIMESTAMP WITHOUT TIME ZONE, p5::TIMESTAMP WITHOUT TIME ZONE FROM (VALUES (%(name__0)s, %(price__0)s, %(unit__0)s, %(i ... 4094 characters truncated ... BY sen_counter RETURNING products.id, products.created_at, products.updated_at, products.id AS id__1]
+[parameters: {'image__0': '', 'name__0': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__0': 65000, 'unit__0': ' Ký', 'image__1': '', 'name__1': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__1': 25000, 'unit__1': ' Hộp', 'image__2': '', 'name__2': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__2': 16700, 'unit__2': ' Chai', 'image__3': '', 'name__3': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__3': 12000, 'unit__3': ' Gói', 'image__4': '', 'name__4': 'Bánh không nhân Thọ Phát, 300g', 'price__4': 19000, 'unit__4': ' Gói', 'image__5': '', 'name__5': 'Trứng gà MM (S1), hộp 10 quả, 60g [D250957451]', 'price__5': 29600, 'unit__5': ' Hộp', 'image__6': '', 'name__6': 'Đường mía thượng hạng Biên Hòa, 1kg', 'price__6': 30900, 'unit__6': ' Gói', 'image__7': '', 'name__7': 'Đùi tỏi gà đông lạnh nhập khẩu We Are Fresh', 'price__7': 59000, 'unit__7': ' Ký', 'image__8': '', 'name__8': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__8': 65000, 'unit__8': ' Ký', 'image__9': '', 'name__9': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__9': 25000, 'unit__9': ' Hộp', 'image__10': '', 'name__10': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__10': 16700, 'unit__10': ' Chai', 'image__11': '', 'name__11': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__11': 12000, 'unit__11': ' Gói', 'image__12': '', 'name__12': 'Bánh không nhân Thọ Phát, 300g' ... 112 parameters truncated ... 'price__40': 122000, 'unit__40': ' Gói', 'image__41': '', 'name__41': 'Bơ lạt Emborg cook & bake, 200g', 'price__41': 59000, 'unit__41': ' Gói', 'image__42': '', 'name__42': 'Bơ cục Anchor mặn, 200g [D256457737]', 'price__42': 119000, 'unit__42': ' Gói', 'image__43': '', 'name__43': 'Bơ mặn Imperial, 227g/200g', 'price__43': 85000, 'unit__43': ' Gói', 'image__44': '', 'name__44': 'Bơ lạt AOP khối, 250g', 'price__44': 179000, 'unit__44': ' Hộp', 'image__45': '', 'name__45': 'Bơ lạt Paysan Breton, 200g', 'price__45': 126000, 'unit__45': ' Gói', 'image__46': '', 'name__46': 'Bơ khối Anchor lạt, 5kg', 'price__46': 1659000, 'unit__46': ' Gói', 'image__47': '', 'name__47': 'Bơ lạt President, hộp 250g [D258215342]', 'price__47': 165000, 'unit__47': 'Gói', 'image__48': '', 'name__48': 'Bơ lạt phết Anchor, 200g', 'price__48': 84000, 'unit__48': ' Hộp', 'image__49': '', 'name__49': 'Bơ mặn Allowrie, 1kg', 'price__49': 120000, 'unit__49': ' Gói', 'image__50': '', 'name__50': 'Bơ mặn Allowrie, 5kg', 'price__50': 549000, 'unit__50': ' Gói', 'image__51': '', 'name__51': 'Bơ mặn AOP khối, 250g', 'price__51': 179000, 'unit__51': ' Hộp', 'image__52': '', 'name__52': 'Bơ lạt Emborg 82% béo, 200g', 'price__52': 116000, 'unit__52': ' Gói'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "ix_products_name"
+DETAIL:  Key (name)=(Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/models/database.py", line 89, in save_products
+    session.commit()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "<string>", line 2, in commit
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "<string>", line 2, in _prepare_impl
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 1143, in _emit_insert_statements
+    result = connection.execute(
+        statement, multiparams, execution_options=execution_options
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1844, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2126, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e,
+        ^^
+    ...<4 lines>...
+        is_sub_exec=True,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_products_name"
+DETAIL:  Key (name)=(Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]) already exists.
+
+[SQL: INSERT INTO products (name, price, unit, image, created_at, updated_at) SELECT p0::VARCHAR, p1::INTEGER, p2::VARCHAR, p3::TEXT, p4::TIMESTAMP WITHOUT TIME ZONE, p5::TIMESTAMP WITHOUT TIME ZONE FROM (VALUES (%(name__0)s, %(price__0)s, %(unit__0)s, %(i ... 4094 characters truncated ... BY sen_counter RETURNING products.id, products.created_at, products.updated_at, products.id AS id__1]
+[parameters: {'image__0': '', 'name__0': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__0': 65000, 'unit__0': ' Ký', 'image__1': '', 'name__1': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__1': 25000, 'unit__1': ' Hộp', 'image__2': '', 'name__2': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__2': 16700, 'unit__2': ' Chai', 'image__3': '', 'name__3': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__3': 12000, 'unit__3': ' Gói', 'image__4': '', 'name__4': 'Bánh không nhân Thọ Phát, 300g', 'price__4': 19000, 'unit__4': ' Gói', 'image__5': '', 'name__5': 'Trứng gà MM (S1), hộp 10 quả, 60g [D250957451]', 'price__5': 29600, 'unit__5': ' Hộp', 'image__6': '', 'name__6': 'Đường mía thượng hạng Biên Hòa, 1kg', 'price__6': 30900, 'unit__6': ' Gói', 'image__7': '', 'name__7': 'Đùi tỏi gà đông lạnh nhập khẩu We Are Fresh', 'price__7': 59000, 'unit__7': ' Ký', 'image__8': '', 'name__8': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__8': 65000, 'unit__8': ' Ký', 'image__9': '', 'name__9': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__9': 25000, 'unit__9': ' Hộp', 'image__10': '', 'name__10': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__10': 16700, 'unit__10': ' Chai', 'image__11': '', 'name__11': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__11': 12000, 'unit__11': ' Gói', 'image__12': '', 'name__12': 'Bánh không nhân Thọ Phát, 300g' ... 112 parameters truncated ... 'price__40': 122000, 'unit__40': ' Gói', 'image__41': '', 'name__41': 'Bơ lạt Emborg cook & bake, 200g', 'price__41': 59000, 'unit__41': ' Gói', 'image__42': '', 'name__42': 'Bơ cục Anchor mặn, 200g [D256457737]', 'price__42': 119000, 'unit__42': ' Gói', 'image__43': '', 'name__43': 'Bơ mặn Imperial, 227g/200g', 'price__43': 85000, 'unit__43': ' Gói', 'image__44': '', 'name__44': 'Bơ lạt AOP khối, 250g', 'price__44': 179000, 'unit__44': ' Hộp', 'image__45': '', 'name__45': 'Bơ lạt Paysan Breton, 200g', 'price__45': 126000, 'unit__45': ' Gói', 'image__46': '', 'name__46': 'Bơ khối Anchor lạt, 5kg', 'price__46': 1659000, 'unit__46': ' Gói', 'image__47': '', 'name__47': 'Bơ lạt President, hộp 250g [D258215342]', 'price__47': 165000, 'unit__47': 'Gói', 'image__48': '', 'name__48': 'Bơ lạt phết Anchor, 200g', 'price__48': 84000, 'unit__48': ' Hộp', 'image__49': '', 'name__49': 'Bơ mặn Allowrie, 1kg', 'price__49': 120000, 'unit__49': ' Gói', 'image__50': '', 'name__50': 'Bơ mặn Allowrie, 5kg', 'price__50': 549000, 'unit__50': ' Gói', 'image__51': '', 'name__51': 'Bơ mặn AOP khối, 250g', 'price__51': 179000, 'unit__51': ' Hộp', 'image__52': '', 'name__52': 'Bơ lạt Emborg 82% béo, 200g', 'price__52': 116000, 'unit__52': ' Gói'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-11-19 16:54:48,465 | controller | ERROR | Lỗi nghiêm trọng: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_products_name"
+DETAIL:  Key (name)=(Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]) already exists.
+
+[SQL: INSERT INTO products (name, price, unit, image, created_at, updated_at) SELECT p0::VARCHAR, p1::INTEGER, p2::VARCHAR, p3::TEXT, p4::TIMESTAMP WITHOUT TIME ZONE, p5::TIMESTAMP WITHOUT TIME ZONE FROM (VALUES (%(name__0)s, %(price__0)s, %(unit__0)s, %(i ... 4094 characters truncated ... BY sen_counter RETURNING products.id, products.created_at, products.updated_at, products.id AS id__1]
+[parameters: {'image__0': '', 'name__0': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__0': 65000, 'unit__0': ' Ký', 'image__1': '', 'name__1': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__1': 25000, 'unit__1': ' Hộp', 'image__2': '', 'name__2': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__2': 16700, 'unit__2': ' Chai', 'image__3': '', 'name__3': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__3': 12000, 'unit__3': ' Gói', 'image__4': '', 'name__4': 'Bánh không nhân Thọ Phát, 300g', 'price__4': 19000, 'unit__4': ' Gói', 'image__5': '', 'name__5': 'Trứng gà MM (S1), hộp 10 quả, 60g [D250957451]', 'price__5': 29600, 'unit__5': ' Hộp', 'image__6': '', 'name__6': 'Đường mía thượng hạng Biên Hòa, 1kg', 'price__6': 30900, 'unit__6': ' Gói', 'image__7': '', 'name__7': 'Đùi tỏi gà đông lạnh nhập khẩu We Are Fresh', 'price__7': 59000, 'unit__7': ' Ký', 'image__8': '', 'name__8': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__8': 65000, 'unit__8': ' Ký', 'image__9': '', 'name__9': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__9': 25000, 'unit__9': ' Hộp', 'image__10': '', 'name__10': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__10': 16700, 'unit__10': ' Chai', 'image__11': '', 'name__11': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__11': 12000, 'unit__11': ' Gói', 'image__12': '', 'name__12': 'Bánh không nhân Thọ Phát, 300g' ... 112 parameters truncated ... 'price__40': 122000, 'unit__40': ' Gói', 'image__41': '', 'name__41': 'Bơ lạt Emborg cook & bake, 200g', 'price__41': 59000, 'unit__41': ' Gói', 'image__42': '', 'name__42': 'Bơ cục Anchor mặn, 200g [D256457737]', 'price__42': 119000, 'unit__42': ' Gói', 'image__43': '', 'name__43': 'Bơ mặn Imperial, 227g/200g', 'price__43': 85000, 'unit__43': ' Gói', 'image__44': '', 'name__44': 'Bơ lạt AOP khối, 250g', 'price__44': 179000, 'unit__44': ' Hộp', 'image__45': '', 'name__45': 'Bơ lạt Paysan Breton, 200g', 'price__45': 126000, 'unit__45': ' Gói', 'image__46': '', 'name__46': 'Bơ khối Anchor lạt, 5kg', 'price__46': 1659000, 'unit__46': ' Gói', 'image__47': '', 'name__47': 'Bơ lạt President, hộp 250g [D258215342]', 'price__47': 165000, 'unit__47': 'Gói', 'image__48': '', 'name__48': 'Bơ lạt phết Anchor, 200g', 'price__48': 84000, 'unit__48': ' Hộp', 'image__49': '', 'name__49': 'Bơ mặn Allowrie, 1kg', 'price__49': 120000, 'unit__49': ' Gói', 'image__50': '', 'name__50': 'Bơ mặn Allowrie, 5kg', 'price__50': 549000, 'unit__50': ' Gói', 'image__51': '', 'name__51': 'Bơ mặn AOP khối, 250g', 'price__51': 179000, 'unit__51': ' Hộp', 'image__52': '', 'name__52': 'Bơ lạt Emborg 82% béo, 200g', 'price__52': 116000, 'unit__52': ' Gói'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "ix_products_name"
+DETAIL:  Key (name)=(Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Downloads/Data_THtrue/controllers/product_controller.py", line 39, in crawl_category
+    save_products(all_products)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/models/database.py", line 89, in save_products
+    session.commit()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "<string>", line 2, in commit
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "<string>", line 2, in _prepare_impl
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/orm/persistence.py", line 1143, in _emit_insert_statements
+    result = connection.execute(
+        statement, multiparams, execution_options=execution_options
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1844, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2126, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e,
+        ^^
+    ...<4 lines>...
+        is_sub_exec=True,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        context,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/tukimhoang/Downloads/Data_THtrue/venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_products_name"
+DETAIL:  Key (name)=(Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]) already exists.
+
+[SQL: INSERT INTO products (name, price, unit, image, created_at, updated_at) SELECT p0::VARCHAR, p1::INTEGER, p2::VARCHAR, p3::TEXT, p4::TIMESTAMP WITHOUT TIME ZONE, p5::TIMESTAMP WITHOUT TIME ZONE FROM (VALUES (%(name__0)s, %(price__0)s, %(unit__0)s, %(i ... 4094 characters truncated ... BY sen_counter RETURNING products.id, products.created_at, products.updated_at, products.id AS id__1]
+[parameters: {'image__0': '', 'name__0': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__0': 65000, 'unit__0': ' Ký', 'image__1': '', 'name__1': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__1': 25000, 'unit__1': ' Hộp', 'image__2': '', 'name__2': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__2': 16700, 'unit__2': ' Chai', 'image__3': '', 'name__3': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__3': 12000, 'unit__3': ' Gói', 'image__4': '', 'name__4': 'Bánh không nhân Thọ Phát, 300g', 'price__4': 19000, 'unit__4': ' Gói', 'image__5': '', 'name__5': 'Trứng gà MM (S1), hộp 10 quả, 60g [D250957451]', 'price__5': 29600, 'unit__5': ' Hộp', 'image__6': '', 'name__6': 'Đường mía thượng hạng Biên Hòa, 1kg', 'price__6': 30900, 'unit__6': ' Gói', 'image__7': '', 'name__7': 'Đùi tỏi gà đông lạnh nhập khẩu We Are Fresh', 'price__7': 59000, 'unit__7': ' Ký', 'image__8': '', 'name__8': 'Đùi góc tư gà đông lạnh We Are Fresh xuất xứ Mỹ [D257649251]', 'price__8': 65000, 'unit__8': ' Ký', 'image__9': '', 'name__9': 'Sữa đặc Ông Thọ chữ xanh, hộp giấy 380g [DA53720029]', 'price__9': 25000, 'unit__9': ' Hộp', 'image__10': '', 'name__10': 'Nước tẩy Javel Mỹ Hảo, 1kg [D251920653]', 'price__10': 16700, 'unit__10': ' Chai', 'image__11': '', 'name__11': 'Khăn ăn An An 33*33cm, 100 tờ [D250216015]', 'price__11': 12000, 'unit__11': ' Gói', 'image__12': '', 'name__12': 'Bánh không nhân Thọ Phát, 300g' ... 112 parameters truncated ... 'price__40': 122000, 'unit__40': ' Gói', 'image__41': '', 'name__41': 'Bơ lạt Emborg cook & bake, 200g', 'price__41': 59000, 'unit__41': ' Gói', 'image__42': '', 'name__42': 'Bơ cục Anchor mặn, 200g [D256457737]', 'price__42': 119000, 'unit__42': ' Gói', 'image__43': '', 'name__43': 'Bơ mặn Imperial, 227g/200g', 'price__43': 85000, 'unit__43': ' Gói', 'image__44': '', 'name__44': 'Bơ lạt AOP khối, 250g', 'price__44': 179000, 'unit__44': ' Hộp', 'image__45': '', 'name__45': 'Bơ lạt Paysan Breton, 200g', 'price__45': 126000, 'unit__45': ' Gói', 'image__46': '', 'name__46': 'Bơ khối Anchor lạt, 5kg', 'price__46': 1659000, 'unit__46': ' Gói', 'image__47': '', 'name__47': 'Bơ lạt President, hộp 250g [D258215342]', 'price__47': 165000, 'unit__47': 'Gói', 'image__48': '', 'name__48': 'Bơ lạt phết Anchor, 200g', 'price__48': 84000, 'unit__48': ' Hộp', 'image__49': '', 'name__49': 'Bơ mặn Allowrie, 1kg', 'price__49': 120000, 'unit__49': ' Gói', 'image__50': '', 'name__50': 'Bơ mặn Allowrie, 5kg', 'price__50': 549000, 'unit__50': ' Gói', 'image__51': '', 'name__51': 'Bơ mặn AOP khối, 250g', 'price__51': 179000, 'unit__51': ' Hộp', 'image__52': '', 'name__52': 'Bơ lạt Emborg 82% béo, 200g', 'price__52': 116000, 'unit__52': ' Gói'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-11-19 16:54:48,581 | selenium | INFO | Đã đóng ChromeDriver
+2025-11-19 16:54:48,679 | main | INFO | HOÀN THÀNH! Đã lưu 53 sản phẩm vào DB + Excel
+2025-11-19 16:54:48,679 | main | INFO | KẾT THÚC CHƯƠNG TRÌNH
+2025-11-19 16:58:11,388 | main | INFO | ============================================================
+2025-11-19 16:58:11,389 | main | INFO | BẮT ĐẦU CRAWL BƠ & BƠ THỰC VẬT - MM ONLINE (31 sản phẩm)
+2025-11-19 16:58:11,389 | main | INFO | ============================================================
+2025-11-19 16:58:11,389 | database | INFO | Đang khởi tạo/cập nhật bảng products...
+2025-11-19 16:58:11,520 | database | INFO | Bảng products đã sẵn sàng (có cột unit, image, timestamps)
+2025-11-19 16:58:12,335 | selenium | INFO | Khởi tạo ChromeDriver thành công
+2025-11-19 16:58:12,335 | controller | INFO | → Bắt đầu crawl trang 1: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 16:58:25,353 | parser | INFO | Đang parse 46 sản phẩm từ HTML...
+2025-11-19 16:58:25,367 | parser | INFO | Parse thành công: 46 sản phẩm
+2025-11-19 16:58:25,367 | controller | INFO | Trang 1: +46 → Tổng: 46
+2025-11-19 16:58:25,367 | controller | INFO | → Bắt đầu crawl trang 2: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=2
+2025-11-19 16:58:31,971 | parser | INFO | Đang parse 29 sản phẩm từ HTML...
+2025-11-19 16:58:31,983 | parser | INFO | Parse thành công: 29 sản phẩm
+2025-11-19 16:58:31,983 | controller | INFO | Trang 2: +29 → Tổng: 75
+2025-11-19 16:58:31,983 | controller | INFO | → Bắt đầu crawl trang 3: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html?page=3
+2025-11-19 16:58:39,335 | parser | INFO | Đang parse 0 sản phẩm từ HTML...
+2025-11-19 16:58:39,335 | parser | INFO | Parse thành công: 0 sản phẩm
+2025-11-19 16:58:39,335 | controller | INFO | Trang 3 không có sản phẩm → dừng crawl
+2025-11-19 16:58:39,335 | controller | INFO | CRAWL HOÀN TẤT: Tổng cộng 75 sản phẩm
+2025-11-19 16:58:39,435 | database | INFO | ĐÃ LƯU THÀNH CÔNG VÀO DB → +39 mới, cập nhật 0 sản phẩm (tổng 39)
+2025-11-19 16:58:39,556 | selenium | INFO | Đã đóng ChromeDriver
+2025-11-19 16:58:39,656 | main | INFO | HOÀN THÀNH! Đã lưu 75 sản phẩm vào DB + Excel
+2025-11-19 16:58:39,656 | main | INFO | KẾT THÚC CHƯƠNG TRÌNH
+2025-11-19 17:03:23,846 | main | INFO | ============================================================
+2025-11-19 17:03:23,846 | main | INFO | BẮT ĐẦU CRAWL BƠ & BƠ THỰC VẬT - MM ONLINE (31 sản phẩm)
+2025-11-19 17:03:23,846 | main | INFO | ============================================================
+2025-11-19 17:04:51,564 | main | INFO | ============================================================
+2025-11-19 17:04:51,565 | main | INFO | BẮT ĐẦU CRAWL BƠ & BƠ THỰC VẬT - MM ONLINE (31 sản phẩm)
+2025-11-19 17:04:51,565 | main | INFO | ============================================================
+2025-11-19 17:04:51,565 | database | INFO | Đang khởi tạo/cập nhật bảng products...
+2025-11-19 17:04:51,660 | database | INFO | Bảng products đã sẵn sàng (có cột unit, image, timestamps)
+2025-11-19 17:04:52,417 | selenium | INFO | Khởi tạo ChromeDriver thành công
+2025-11-19 17:04:52,417 | controller | INFO | → Crawl trang 1: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 17:05:15,865 | parser | INFO | Đang parse 46 sản phẩm từ HTML...
+2025-11-19 17:05:15,879 | parser | INFO | Parse thành công: 46 sản phẩm
+2025-11-19 17:05:15,880 | controller | INFO | Phát hiện sản phẩm ngoài danh mục → dừng tại trang 1
+2025-11-19 17:05:15,880 | controller | INFO | CRAWL HOÀN TẤT → Chỉ lấy đúng sản phẩm BƠ: 24 (dự kiến ~31)
+2025-11-19 17:05:15,918 | database | INFO | ĐÃ LƯU THÀNH CÔNG VÀO DB → +0 mới, cập nhật 0 sản phẩm (tổng 0)
+2025-11-19 17:05:16,028 | excel | INFO | ĐÃ XUẤT EXCEL THÀNH CÔNG → 24 sản phẩm → data/bo_bo_thuc_vat_31_san_pham.xlsx
+2025-11-19 17:05:16,132 | selenium | INFO | Đã đóng ChromeDriver
+2025-11-19 17:05:16,150 | excel | INFO | ĐÃ XUẤT EXCEL THÀNH CÔNG → 55 sản phẩm → data/products.xlsx
+2025-11-19 17:05:16,150 | main | INFO | HOÀN THÀNH! Đã lưu 24 sản phẩm vào DB + Excel
+2025-11-19 17:05:16,150 | main | INFO | KẾT THÚC CHƯƠNG TRÌNH
+2025-11-19 23:24:32,360 - INFO - main - Bắt đầu chương trình
+2025-11-19 23:24:35,992 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-19 23:24:36,004 - ERROR - database - Lỗi kết nối PostgreSQL: connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-11-19 23:39:48,267 - INFO - main - Bắt đầu chương trình
+2025-11-19 23:39:48,833 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-19 23:39:48,845 - ERROR - database - Lỗi kết nối PostgreSQL: connection to server at "localhost" (::1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-11-19 23:40:54,421 - INFO - main - Bắt đầu chương trình
+2025-11-19 23:40:55,113 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-19 23:40:55,155 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-19 23:40:55,197 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-19 23:40:55,197 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 23:40:55,197 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-19 23:40:59,186 - INFO - controller - Scroll trang 1...
+2025-11-19 23:40:59,186 - INFO - selenium - Bắt đầu scroll...
+2025-11-19 23:41:07,391 - INFO - parser - Bắt đầu parse HTML
+2025-11-19 23:41:07,423 - INFO - parser - Tìm thấy 24 product items
+2025-11-19 23:41:07,429 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-19 23:41:07,430 - INFO - controller - Tìm nút trang 2...
+2025-11-19 23:41:12,567 - INFO - selenium - Bắt đầu scroll...
+2025-11-19 23:41:18,717 - INFO - parser - Bắt đầu parse HTML
+2025-11-19 23:41:18,741 - INFO - parser - Tìm thấy 7 product items
+2025-11-19 23:41:18,742 - INFO - parser - Đã parse 7 sản phẩm
+2025-11-19 23:41:18,742 - INFO - selenium - Đóng Selenium driver
+2025-11-19 23:41:18,861 - INFO - controller - Tổng sản phẩm: 31
+2025-11-19 23:41:18,885 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, hộp 10 viên, 10g
+2025-11-19 23:41:18,887 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 10 viên, 7g
+2025-11-19 23:41:18,888 - INFO - database - Đã lưu sản phẩm: Bơ Imperial mặn, hộp 10 vỉ, 10g/8g
+2025-11-19 23:41:18,889 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor lạt, 200g
+2025-11-19 23:41:18,890 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 288 viên, 7g
+2025-11-19 23:41:18,891 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 5kg
+2025-11-19 23:41:18,892 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Baker Puff
+2025-11-19 23:41:18,893 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 200g
+2025-11-19 23:41:18,894 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 125g
+2025-11-19 23:41:18,895 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 5kg
+2025-11-19 23:41:18,896 - INFO - database - Đã lưu sản phẩm: Bơ mặn Westgold, 250g
+2025-11-19 23:41:18,897 - INFO - database - Đã lưu sản phẩm: Bơ lạt Anchor, 1kg
+2025-11-19 23:41:18,898 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 1kg
+2025-11-19 23:41:18,899 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 200g
+2025-11-19 23:41:18,900 - INFO - database - Đã lưu sản phẩm: Bơ cục President mặn, 125g
+2025-11-19 23:41:18,901 - INFO - database - Đã lưu sản phẩm: Bơ lạt Westgold, 250g
+2025-11-19 23:41:18,902 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Flora, 250g
+2025-11-19 23:41:18,903 - INFO - database - Đã lưu sản phẩm: Bơ lạt Bottega Zelachi, 250g
+2025-11-19 23:41:18,904 - INFO - database - Đã lưu sản phẩm: Bơ mặn Paysan Breton, 200g
+2025-11-19 23:41:18,905 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg cook & bake, 200g
+2025-11-19 23:41:18,906 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor mặn, 200g
+2025-11-19 23:41:18,907 - INFO - database - Đã lưu sản phẩm: Bơ mặn Imperial, 227g/200g
+2025-11-19 23:41:18,908 - INFO - database - Đã lưu sản phẩm: Bơ lạt AOP khối, 250g
+2025-11-19 23:41:18,909 - INFO - database - Đã lưu sản phẩm: Bơ lạt Paysan Breton, 200g
+2025-11-19 23:41:18,909 - INFO - database - Đã lưu sản phẩm: Bơ khối Anchor lạt, 5kg
+2025-11-19 23:41:18,910 - INFO - database - Đã lưu sản phẩm: Bơ lạt President, hộp 250g
+2025-11-19 23:41:18,911 - INFO - database - Đã lưu sản phẩm: Bơ lạt phết Anchor, 200g
+2025-11-19 23:41:18,912 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 1kg
+2025-11-19 23:41:18,913 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 5kg
+2025-11-19 23:41:18,914 - INFO - database - Đã lưu sản phẩm: Bơ mặn AOP khối, 250g
+2025-11-19 23:41:18,915 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg 82% béo, 200g
+2025-11-19 23:41:18,915 - INFO - database - Đã đóng kết nối Database.
+2025-11-20 00:14:45,293 - INFO - main - Bắt đầu chương trình
+2025-11-20 00:14:45,950 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-20 00:14:45,990 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-20 00:14:45,997 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-20 00:14:45,997 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 00:14:45,997 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 00:14:52,001 - INFO - controller - Scroll trang 1...
+2025-11-20 00:14:52,001 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 00:15:00,180 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 00:15:00,212 - INFO - parser - Tìm thấy 24 product items
+2025-11-20 00:15:00,218 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-20 00:15:00,218 - INFO - controller - Tìm nút trang 2...
+2025-11-20 00:15:05,382 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 00:15:11,521 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 00:15:11,545 - INFO - parser - Tìm thấy 7 product items
+2025-11-20 00:15:11,547 - INFO - parser - Đã parse 7 sản phẩm
+2025-11-20 00:15:11,547 - INFO - selenium - Đóng Selenium driver
+2025-11-20 00:15:11,665 - INFO - controller - Tổng sản phẩm: 31
+2025-11-20 00:15:11,695 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, hộp 10 viên, 10g
+2025-11-20 00:15:11,696 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 10 viên, 7g
+2025-11-20 00:15:11,698 - INFO - database - Đã lưu sản phẩm: Bơ Imperial mặn, hộp 10 vỉ, 10g/8g
+2025-11-20 00:15:11,699 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor lạt, 200g
+2025-11-20 00:15:11,700 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 288 viên, 7g
+2025-11-20 00:15:11,701 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 5kg
+2025-11-20 00:15:11,702 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Baker Puff
+2025-11-20 00:15:11,703 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 200g
+2025-11-20 00:15:11,704 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 125g
+2025-11-20 00:15:11,705 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 5kg
+2025-11-20 00:15:11,706 - INFO - database - Đã lưu sản phẩm: Bơ mặn Westgold, 250g
+2025-11-20 00:15:11,707 - INFO - database - Đã lưu sản phẩm: Bơ lạt Anchor, 1kg
+2025-11-20 00:15:11,708 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 1kg
+2025-11-20 00:15:11,708 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 200g
+2025-11-20 00:15:11,709 - INFO - database - Đã lưu sản phẩm: Bơ cục President mặn, 125g
+2025-11-20 00:15:11,710 - INFO - database - Đã lưu sản phẩm: Bơ lạt Westgold, 250g
+2025-11-20 00:15:11,711 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Flora, 250g
+2025-11-20 00:15:11,712 - INFO - database - Đã lưu sản phẩm: Bơ lạt Bottega Zelachi, 250g
+2025-11-20 00:15:11,713 - INFO - database - Đã lưu sản phẩm: Bơ mặn Paysan Breton, 200g
+2025-11-20 00:15:11,714 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg cook & bake, 200g
+2025-11-20 00:15:11,715 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor mặn, 200g
+2025-11-20 00:15:11,716 - INFO - database - Đã lưu sản phẩm: Bơ mặn Imperial, 227g/200g
+2025-11-20 00:15:11,717 - INFO - database - Đã lưu sản phẩm: Bơ lạt AOP khối, 250g
+2025-11-20 00:15:11,718 - INFO - database - Đã lưu sản phẩm: Bơ lạt Paysan Breton, 200g
+2025-11-20 00:15:11,718 - INFO - database - Đã lưu sản phẩm: Bơ khối Anchor lạt, 5kg
+2025-11-20 00:15:11,719 - INFO - database - Đã lưu sản phẩm: Bơ lạt President, hộp 250g
+2025-11-20 00:15:11,721 - INFO - database - Đã lưu sản phẩm: Bơ lạt phết Anchor, 200g
+2025-11-20 00:15:11,721 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 1kg
+2025-11-20 00:15:11,722 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 5kg
+2025-11-20 00:15:11,725 - INFO - database - Đã lưu sản phẩm: Bơ mặn AOP khối, 250g
+2025-11-20 00:15:11,726 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg 82% béo, 200g
+2025-11-20 00:15:11,726 - INFO - database - Đã đóng kết nối Database.
+2025-11-20 00:17:19,927 - INFO - main - Bắt đầu chương trình
+2025-11-20 00:17:20,509 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-20 00:17:20,548 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-20 00:17:20,587 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-20 00:17:20,587 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 00:17:20,587 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 00:17:25,396 - INFO - controller - Scroll trang 1...
+2025-11-20 00:17:25,396 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 00:17:33,565 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 00:17:33,599 - INFO - parser - Tìm thấy 24 product items
+2025-11-20 00:17:33,605 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-20 00:17:33,605 - INFO - controller - Tìm nút trang 2...
+2025-11-20 00:17:38,741 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 00:17:44,883 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 00:17:44,908 - INFO - parser - Tìm thấy 7 product items
+2025-11-20 00:17:44,910 - INFO - parser - Đã parse 7 sản phẩm
+2025-11-20 00:17:44,910 - INFO - selenium - Đóng Selenium driver
+2025-11-20 00:17:45,029 - INFO - controller - Tổng sản phẩm: 31
+2025-11-20 00:17:45,055 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, hộp 10 viên, 10g
+2025-11-20 00:17:45,056 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 10 viên, 7g
+2025-11-20 00:17:45,058 - INFO - database - Đã lưu sản phẩm: Bơ Imperial mặn, hộp 10 vỉ, 10g/8g
+2025-11-20 00:17:45,059 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor lạt, 200g
+2025-11-20 00:17:45,060 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 288 viên, 7g
+2025-11-20 00:17:45,061 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 5kg
+2025-11-20 00:17:45,062 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Baker Puff
+2025-11-20 00:17:45,063 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 200g
+2025-11-20 00:17:45,064 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 125g
+2025-11-20 00:17:45,065 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 5kg
+2025-11-20 00:17:45,066 - INFO - database - Đã lưu sản phẩm: Bơ mặn Westgold, 250g
+2025-11-20 00:17:45,067 - INFO - database - Đã lưu sản phẩm: Bơ lạt Anchor, 1kg
+2025-11-20 00:17:45,068 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 1kg
+2025-11-20 00:17:45,069 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 200g
+2025-11-20 00:17:45,070 - INFO - database - Đã lưu sản phẩm: Bơ cục President mặn, 125g
+2025-11-20 00:17:45,071 - INFO - database - Đã lưu sản phẩm: Bơ lạt Westgold, 250g
+2025-11-20 00:17:45,072 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Flora, 250g
+2025-11-20 00:17:45,073 - INFO - database - Đã lưu sản phẩm: Bơ lạt Bottega Zelachi, 250g
+2025-11-20 00:17:45,074 - INFO - database - Đã lưu sản phẩm: Bơ mặn Paysan Breton, 200g
+2025-11-20 00:17:45,076 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg cook & bake, 200g
+2025-11-20 00:17:45,077 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor mặn, 200g
+2025-11-20 00:17:45,078 - INFO - database - Đã lưu sản phẩm: Bơ mặn Imperial, 227g/200g
+2025-11-20 00:17:45,078 - INFO - database - Đã lưu sản phẩm: Bơ lạt AOP khối, 250g
+2025-11-20 00:17:45,079 - INFO - database - Đã lưu sản phẩm: Bơ lạt Paysan Breton, 200g
+2025-11-20 00:17:45,080 - INFO - database - Đã lưu sản phẩm: Bơ khối Anchor lạt, 5kg
+2025-11-20 00:17:45,081 - INFO - database - Đã lưu sản phẩm: Bơ lạt President, hộp 250g
+2025-11-20 00:17:45,082 - INFO - database - Đã lưu sản phẩm: Bơ lạt phết Anchor, 200g
+2025-11-20 00:17:45,083 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 1kg
+2025-11-20 00:17:45,084 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 5kg
+2025-11-20 00:17:45,085 - INFO - database - Đã lưu sản phẩm: Bơ mặn AOP khối, 250g
+2025-11-20 00:17:45,086 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg 82% béo, 200g
+2025-11-20 00:17:45,086 - INFO - database - Đã đóng kết nối Database.
+2025-11-20 13:08:35,060 - INFO - main - Bắt đầu chương trình
+2025-11-20 13:08:41,841 - WARNING - selenium.webdriver.common.selenium_manager - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-11-20 13:08:42,513 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-20 13:08:42,559 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-20 13:08:42,569 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-20 13:08:42,569 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 13:08:42,569 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 13:08:48,203 - INFO - controller - Scroll trang 1...
+2025-11-20 13:08:48,203 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 13:08:56,388 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 13:08:56,428 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-20 13:08:56,428 - INFO - controller - Tìm nút trang 2...
+2025-11-20 13:09:01,596 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 13:09:07,749 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 13:09:07,775 - INFO - parser - Đã parse 7 sản phẩm
+2025-11-20 13:09:07,775 - INFO - selenium - Đóng Selenium driver
+2025-11-20 13:09:07,891 - INFO - controller - Tổng sản phẩm: 31
+2025-11-20 13:09:07,927 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, hộp 10 viên, 10g
+2025-11-20 13:09:07,929 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 10 viên, 7g
+2025-11-20 13:09:07,930 - INFO - database - Đã lưu sản phẩm: Bơ Imperial mặn, hộp 10 vỉ, 10g/8g
+2025-11-20 13:09:07,931 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor lạt, 200g
+2025-11-20 13:09:07,932 - INFO - database - Đã lưu sản phẩm: Bơ Anchor lạt, vỉ 288 viên, 7g
+2025-11-20 13:09:07,933 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 5kg
+2025-11-20 13:09:07,934 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Baker Puff
+2025-11-20 13:09:07,935 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 200g
+2025-11-20 13:09:07,936 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 125g
+2025-11-20 13:09:07,937 - INFO - database - Đã lưu sản phẩm: Bơ lạt tự nhiên TH True Butter, 5kg
+2025-11-20 13:09:07,938 - INFO - database - Đã lưu sản phẩm: Bơ mặn Westgold, 250g
+2025-11-20 13:09:07,939 - INFO - database - Đã lưu sản phẩm: Bơ lạt Anchor, 1kg
+2025-11-20 13:09:07,940 - INFO - database - Đã lưu sản phẩm: Bơ lạt Allowrie, 1kg
+2025-11-20 13:09:07,942 - INFO - database - Đã lưu sản phẩm: Bơ cục President lạt, 200g
+2025-11-20 13:09:07,944 - INFO - database - Đã lưu sản phẩm: Bơ cục President mặn, 125g
+2025-11-20 13:09:07,945 - INFO - database - Đã lưu sản phẩm: Bơ lạt Westgold, 250g
+2025-11-20 13:09:07,946 - INFO - database - Đã lưu sản phẩm: Bơ thực vật Flora, 250g
+2025-11-20 13:09:07,946 - INFO - database - Đã lưu sản phẩm: Bơ lạt Bottega Zelachi, 250g
+2025-11-20 13:09:07,948 - INFO - database - Đã lưu sản phẩm: Bơ mặn Paysan Breton, 200g
+2025-11-20 13:09:07,949 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg cook & bake, 200g
+2025-11-20 13:09:07,949 - INFO - database - Đã lưu sản phẩm: Bơ cục Anchor mặn, 200g
+2025-11-20 13:09:07,950 - INFO - database - Đã lưu sản phẩm: Bơ mặn Imperial, 227g/200g
+2025-11-20 13:09:07,951 - INFO - database - Đã lưu sản phẩm: Bơ lạt AOP khối, 250g
+2025-11-20 13:09:07,954 - INFO - database - Đã lưu sản phẩm: Bơ lạt Paysan Breton, 200g
+2025-11-20 13:09:07,956 - INFO - database - Đã lưu sản phẩm: Bơ khối Anchor lạt, 5kg
+2025-11-20 13:09:07,959 - INFO - database - Đã lưu sản phẩm: Bơ lạt President, hộp 250g
+2025-11-20 13:09:07,961 - INFO - database - Đã lưu sản phẩm: Bơ lạt phết Anchor, 200g
+2025-11-20 13:09:07,963 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 1kg
+2025-11-20 13:09:07,965 - INFO - database - Đã lưu sản phẩm: Bơ mặn Allowrie, 5kg
+2025-11-20 13:09:07,969 - INFO - database - Đã lưu sản phẩm: Bơ mặn AOP khối, 250g
+2025-11-20 13:09:07,970 - INFO - database - Đã lưu sản phẩm: Bơ lạt Emborg 82% béo, 200g
+2025-11-20 13:09:07,971 - INFO - database - Đã đóng kết nối Database.
+2025-11-20 14:02:43,706 - INFO - main - Bắt đầu chương trình
+2025-11-20 14:02:44,457 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-20 14:02:44,501 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-20 14:02:44,507 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-20 14:02:44,508 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 14:02:44,508 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 14:03:09,516 - INFO - controller - Scroll trang 1...
+2025-11-20 14:03:09,517 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 14:03:17,711 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 14:03:17,744 - INFO - parser - Tìm thấy 24 product items
+2025-11-20 14:03:17,751 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-20 14:03:17,751 - INFO - controller - Tìm nút trang 2...
+2025-11-20 14:03:22,902 - INFO - selenium - Bắt đầu scroll...
+2025-11-20 14:03:29,050 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 14:03:29,075 - WARNING - parser - Không tìm thấy gallery container
+2025-11-20 14:03:29,075 - INFO - selenium - Đóng Selenium driver
+2025-11-20 14:03:29,176 - INFO - controller - Tổng sản phẩm: 24
+2025-11-20 14:03:29,236 - INFO - database - Đã đóng kết nối Database.
+2025-11-20 14:07:16,345 - INFO - main - Bắt đầu chương trình
+2025-11-20 14:07:16,958 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-20 14:07:16,991 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-20 14:07:16,997 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-20 14:07:16,997 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 14:07:16,997 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 14:07:42,237 - INFO - controller - Đang crawl trang 1...
+2025-11-20 14:07:42,237 - INFO - selenium - Bắt đầu scroll (max: 10 lần)...
+2025-11-20 14:07:45,266 - INFO - selenium - ✓ Đã scroll hết sau 2 lần
+2025-11-20 14:07:47,857 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 14:07:47,894 - INFO - parser - Tìm thấy 24 product items
+2025-11-20 14:07:47,901 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-20 14:07:47,901 - INFO - controller - ✓ Trang 1: 24 sản phẩm
+2025-11-20 14:07:47,901 - INFO - controller - Đang tìm và chuyển sang trang 2...
+2025-11-20 14:07:54,527 - INFO - controller - Đang crawl trang 2...
+2025-11-20 14:07:54,528 - INFO - selenium - Bắt đầu scroll (max: 10 lần)...
+2025-11-20 14:07:56,049 - INFO - selenium - ✓ Đã scroll hết sau 1 lần
+2025-11-20 14:07:58,650 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 14:07:58,683 - INFO - parser - Tìm thấy 7 product items
+2025-11-20 14:07:58,685 - INFO - parser - Đã parse 7 sản phẩm
+2025-11-20 14:07:58,685 - INFO - controller - ✓ Trang 2: 7 sản phẩm
+2025-11-20 14:07:58,685 - INFO - selenium - Đóng Selenium driver
+2025-11-20 14:07:58,785 - INFO - controller - ═══════════════════════════════════════
+2025-11-20 14:07:58,786 - INFO - controller - Tổng sản phẩm: 31
+2025-11-20 14:07:58,786 - INFO - controller - ═══════════════════════════════════════
+2025-11-20 14:07:58,833 - INFO - database - ✓ Đã lưu 31 sản phẩm vào database
+2025-11-20 14:07:58,833 - INFO - database - Đã đóng kết nối Database.
+2025-11-20 15:46:49,609 - INFO - main - Bắt đầu chương trình
+2025-11-20 15:46:52,863 - INFO - selenium - Khởi tạo Selenium thành công
+2025-11-20 15:46:52,912 - INFO - database - Kết nối PostgreSQL thành công!
+2025-11-20 15:46:52,918 - INFO - database - Bảng products đã sẵn sàng.
+2025-11-20 15:46:52,918 - INFO - controller - Truy cập URL: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 15:46:52,918 - INFO - selenium - Tải trang: https://online.mmvietnam.com/category/bo-bo-thuc-vat.html
+2025-11-20 15:47:00,840 - INFO - controller - Đang crawl trang 1...
+2025-11-20 15:47:00,840 - INFO - selenium - Bắt đầu scroll (max: 10 lần)...
+2025-11-20 15:47:05,372 - INFO - selenium - Đã scroll hết sau 3 lần
+2025-11-20 15:47:07,982 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 15:47:08,022 - INFO - parser - Tìm thấy 24 product items
+2025-11-20 15:47:08,029 - INFO - parser - Đã parse 24 sản phẩm
+2025-11-20 15:47:08,029 - INFO - controller - ✓ Trang 1: 24 sản phẩm
+2025-11-20 15:47:08,029 - INFO - controller - Đang tìm và chuyển sang trang 2...
+2025-11-20 15:47:14,671 - INFO - controller - Đang crawl trang 2...
+2025-11-20 15:47:14,671 - INFO - selenium - Bắt đầu scroll (max: 10 lần)...
+2025-11-20 15:47:16,187 - INFO - selenium - Đã scroll hết sau 1 lần
+2025-11-20 15:47:18,786 - INFO - parser - Bắt đầu parse HTML
+2025-11-20 15:47:18,818 - INFO - parser - Tìm thấy 7 product items
+2025-11-20 15:47:18,820 - INFO - parser - Đã parse 7 sản phẩm
+2025-11-20 15:47:18,820 - INFO - controller - ✓ Trang 2: 7 sản phẩm
+2025-11-20 15:47:18,820 - INFO - selenium - Đóng Selenium driver
+2025-11-20 15:47:18,931 - INFO - controller - ═══════════════════════════════════════
+2025-11-20 15:47:18,931 - INFO - controller - Tổng sản phẩm: 31
+2025-11-20 15:47:18,931 - INFO - controller - ═══════════════════════════════════════
+2025-11-20 15:47:18,977 - INFO - database - ✓ Đã lưu 31 sản phẩm vào database
+2025-11-20 15:47:18,977 - INFO - database - Đã đóng kết nối Database.

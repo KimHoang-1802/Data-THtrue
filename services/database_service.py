@@ -1,3 +1,5 @@
+
+#Vai trò: Kết nối và lưu dữ liệu vào PostgreSQL
 import psycopg2
 from config import Config
 from utils.logger import get_logger
@@ -45,27 +47,61 @@ class DatabaseService:
             self.conn.rollback()
 
     def insert_product(self, p):
-        """Chèn sản phẩm vào DB"""
+        """Chèn sản phẩm vào DB - không log chi tiết"""
         try:
             query = """
                 INSERT INTO products (name, price, image, crawl_date)
-                VALUES (%s, %s, %s, CURRENT_TIMESTAMP)
+                VALUES (%s, %s, %s, %s)
             """
 
             values = (
                 getattr(p, "name", None),
                 getattr(p, "price", None),
                 getattr(p, "image", None),
+                getattr(p, "date", None)  # Sử dụng date từ object Product
             )
 
             self.cursor.execute(query, values)
             self.conn.commit()
 
-            logger.info(f"Đã lưu sản phẩm: {p.name}")
-
         except Exception as e:
             logger.error(f"Lỗi insert_product: {e}")
             self.conn.rollback()
+            raise
+
+    def insert_products_batch(self, products):
+        """Chèn nhiều sản phẩm cùng lúc - tối ưu hơn"""
+        if not products:
+            return 0
+
+        try:
+            query = """
+                INSERT INTO products (name, price, image, crawl_date)
+                VALUES (%s, %s, %s, %s)
+            """
+
+            values_list = [
+                (
+                    getattr(p, "name", None),
+                    getattr(p, "price", None),
+                    getattr(p, "image", None),
+                    getattr(p, "date", None)
+                )
+                for p in products
+            ]
+
+            self.cursor.executemany(query, values_list)
+            self.conn.commit()
+
+            inserted_count = len(values_list)
+            logger.info(f"✓ Đã lưu {inserted_count} sản phẩm vào database")
+            
+            return inserted_count
+
+        except Exception as e:
+            logger.error(f"Lỗi insert_products_batch: {e}")
+            self.conn.rollback()
+            raise
 
     def close(self):
         if self.conn:

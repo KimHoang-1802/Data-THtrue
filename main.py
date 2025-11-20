@@ -1,5 +1,6 @@
 
-# main.py
+# main.py 
+# Vai trò: File chính để chạy toàn bộ chương trình
 from controllers.product_controller import ProductController
 from export.excel_exporter import ExcelExporter
 from utils.logger import get_logger

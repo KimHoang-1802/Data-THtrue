@@ -6,6 +6,9 @@ pandas
 openpyxl
 psycopg2-binary
 
+#pip install selenium beautifulsoup4 sqlalchemy psycopg2-binary pandas openpyxl python-dotenv lxml webdriver-manager
+
+#python main.py
 
 # Dùng để chứa tất cả thư viện cần thiết cho dự án.
 # chạy pip install -r requirements.txt để auto cài toàn bộ

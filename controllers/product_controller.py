@@ -1,3 +1,10 @@
+# Vai trò: Orchestrator - điều phối toàn bộ luồng crawl
+# Khởi tạo 3 services: Selenium, Parser, Database
+# 1. Mở trang 1 → Scroll → Parse → Lưu tạm
+# 2. Click nút "2" → Mở trang 2 → Scroll → Parse → Lưu tạm
+# 3. Lọc trùng lặp (theo tên sản phẩm)
+# 4. Batch insert vào database
+# 5. Đóng tất cả kết nối
 from services.selenium_service import SeleniumService
 from services.parser_service import ParserService
 from services.database_service import DatabaseService
@@ -16,20 +23,22 @@ class ProductController:
 
     def crawl_category(self, url):
         logger.info(f"Truy cập URL: {url}")
-        self.selenium.get_page(url, wait=2)
+        self.selenium.get_page(url, wait=3)
 
         products = []
 
         # --- Trang 1 ---
-        logger.info("Scroll trang 1...")
-        self.selenium.scroll_to_bottom(pause=1.0, max_scrolls=8)
+        logger.info("Đang crawl trang 1...")
+        self.selenium.scroll_to_bottom(pause=1.5, max_scrolls=10)
+        time.sleep(2)  # Đợi load hết
 
         html1 = self.selenium.driver.page_source
         page1_products = self.parser.parse_products_from_html(html1)
         products.extend(page1_products)
+        logger.info(f"✓ Trang 1: {len(page1_products)} sản phẩm")
 
         # --- Page 2 ---
-        logger.info("Tìm nút trang 2...")
+        logger.info("Đang tìm và chuyển sang trang 2...")
         try:
             page_buttons = self.selenium.driver.find_elements(
                 By.CSS_SELECTOR,
@@ -46,18 +55,23 @@ class ProductController:
                 self.selenium.driver.execute_script(
                     "arguments[0].scrollIntoView({block:'center'});", page2_btn
                 )
-                time.sleep(1)
+                time.sleep(1.5)
                 try:
                     page2_btn.click()
                 except:
                     self.selenium.driver.execute_script("arguments[0].click();", page2_btn)
 
-                time.sleep(3)
-                self.selenium.scroll_to_bottom(pause=1.0, max_scrolls=6)
+                time.sleep(4)  # Tăng thời gian đợi
+                logger.info("Đang crawl trang 2...")
+                self.selenium.scroll_to_bottom(pause=1.5, max_scrolls=10)
+                time.sleep(2)  # Đợi load hết
 
                 html2 = self.selenium.driver.page_source
                 page2_products = self.parser.parse_products_from_html(html2)
                 products.extend(page2_products)
+                logger.info(f"✓ Trang 2: {len(page2_products)} sản phẩm")
+            else:
+                logger.warning("Không tìm thấy nút trang 2")
 
         except Exception as e:
             logger.error(f"Lỗi phân trang: {e}")
@@ -68,11 +82,13 @@ class ProductController:
         unique = {p.name.lower(): p for p in products}
         result = list(unique.values())
 
+        logger.info(f"═══════════════════════════════════════")
         logger.info(f"Tổng sản phẩm: {len(result)}")
+        logger.info(f"═══════════════════════════════════════")
 
-        # Lưu database
-        for p in result:
-            self.db.insert_product(p)
+        # Lưu database batch (một lần thay vì nhiều lần)
+        if result:
+            self.db.insert_products_batch(result)
 
         self.db.close()
 
